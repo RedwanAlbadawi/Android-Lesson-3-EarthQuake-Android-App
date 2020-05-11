@@ -18,3 +18,5 @@ this method runs in the background,here we pass api url and try to fetch the dat
 this method runs in foreground and present the data in listview format.
 
 once the data is presented in listview you can get more details about earthquake by clicking on list item.
+
+See wiki for further details.
