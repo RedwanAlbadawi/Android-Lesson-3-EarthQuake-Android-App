@@ -9,11 +9,11 @@ REQUEST_URL  ---> https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojso
 To make request to this api first make background service, we have used AsyncTask to request to this API
 The async task contains two main methods
 
-1) doInBackground()
+1. doInBackground()
 
 this method runs in the background,here we pass api url and try to fetch the data. once the data is fetched completely in json format next step is to parse the json for that purpose JSONArray and JSONObject classes are used. after parsing the json the listview with earthquake information is created and passed to onPostExecute() method.
 
-2) onPostExecute()
+2. onPostExecute()
 
 this method runs in foreground and present the data in listview format.
 
